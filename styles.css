@@ -165,3 +165,20 @@ h2 {
 .pt-5{
     color: #ffffff;
 }
+
+
+.nav-link:hover{
+    color: #424141
+}
+
+.mt-3:hover{
+    color: #505050;
+}
+
+.finaltexto1:hover{
+    color: #505050;
+}
+
+.finaltexto2{
+    color: #ffffff;
+}
