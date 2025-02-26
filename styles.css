@@ -182,3 +182,48 @@ h2 {
 .finaltexto2{
     color: #ffffff;
 }
+
+.menu-acessibilidade{
+    position: fixed;
+    top: 2rem;
+    right: 28px;
+    z-index: 1000;
+}
+
+
+.rotacao-botao{
+    transform: rotate(-90deg);
+    transform-origin: right center;
+}
+
+
+.opcoes-acessibilidade{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.opcoes-acessibilidade button{
+    margin-bottom: 5px;
+}
+
+
+.apresenta-lista{
+    display: none;
+}
+
+#botao-acessibilidade{
+    background-color: #F1EDEF;
+    color: #424141;
+}
+
+#diminuir-fonte{
+    background-color: #000000;
+    border: #505050;
+}
+
+#aumentar-fonte{
+    background-color: #000000;
+    border: #505050;
+}
