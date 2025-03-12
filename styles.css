@@ -3,6 +3,9 @@
 
 :root {
     --laranja-: #000000;
+    --alto-contraste-fundo: #d6d5d5;
+    --alto-contraste-texto: #000000;
+    --alto-contraste-link: #000000;
 }
 
 body {
@@ -69,7 +72,7 @@ section {
 
 }
 
-.botao-inicio:hover{
+.botao-inicio:hover {
     background-color: #ffffff;
     color: black;
 }
@@ -143,7 +146,7 @@ h2 {
     font-weight: bold;
 }
 
-.formulario button:hover{
+.formulario button:hover {
     background-color: #ffffff;
     color: rgb(53, 53, 53);
 }
@@ -154,36 +157,36 @@ h2 {
 }
 
 
-.titulo{
+.titulo {
     color: #ffffff;
 }
 
-.p-2{
+.p-2 {
     color: #ffffff;
 }
 
-.pt-5{
+.pt-5 {
     color: #ffffff;
 }
 
 
-.nav-link:hover{
+.nav-link:hover {
     color: #424141
 }
 
-.mt-3:hover{
+.mt-3:hover {
     color: #505050;
 }
 
-.finaltexto1:hover{
+.finaltexto1:hover {
     color: #505050;
 }
 
-.finaltexto2{
+.finaltexto2 {
     color: #ffffff;
 }
 
-.menu-acessibilidade{
+.menu-acessibilidade {
     position: fixed;
     top: 2rem;
     right: 28px;
@@ -191,39 +194,78 @@ h2 {
 }
 
 
-.rotacao-botao{
+.rotacao-botao {
     transform: rotate(-90deg);
     transform-origin: right center;
 }
 
 
-.opcoes-acessibilidade{
+.opcoes-acessibilidade {
     margin-top: 10px;
     display: flex;
     flex-direction: column;
 }
 
 
-.opcoes-acessibilidade button{
+.opcoes-acessibilidade button {
     margin-bottom: 5px;
 }
 
 
-.apresenta-lista{
+.apresenta-lista {
     display: none;
 }
 
-#botao-acessibilidade{
+#botao-acessibilidade {
     background-color: #F1EDEF;
     color: #424141;
 }
 
-#diminuir-fonte{
+#diminuir-fonte {
     background-color: #000000;
     border: #505050;
 }
 
-#aumentar-fonte{
+#aumentar-fonte {
     background-color: #000000;
     border: #505050;
+}
+
+.alto-contraste{
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
+}
+
+.alto-contraste header,
+.alto-contraste footer,
+.alto-contraste .formulario{
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
+}
+
+.alto-contraste .nav-link{
+    color: var(--alto-contraste-link);
+}
+
+.alto-contraste .botao-inicio,
+.alto-contraste .formulario button,
+.alto-contraste .btn-primary{
+    background-color: var(--alto-contraste-link);
+    color: var(--alto-contraste-fundo)
+}
+
+.alto-contraste #tropicalia {
+    background: none;
+}
+
+.alto-contraste #galeria {
+    background-color: var(--alto-contraste-fundo);
+}
+.alto-contraste .fundo-galeria {
+    background: none;
+}
+
+#alterna-contraste{
+    background-color: #000000;
+    border: #000000 1px solid;
 }
