@@ -18,12 +18,12 @@
         <nav class="container d-flex justify-content-between align-items-center">
             <img src="img/The_Last_Witch_Hunter_Logo.png" alt="Logotipo The last Witch Huntar"
                 title="Logotipo -CCO Domínio Público." class="nav-img " loading="lazy">
-            <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
-            <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
-            <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+            <li class="nav-item"><a class="nav-link" href="#inicio" aria-label="Início">Início</a></li>
+            <li class="nav-item"><a class="nav-link" href="#galeria" aria-label="Galeria">Galeria</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contato" aria-label="Contato">Contato</a></li>
             </ul>
             <div id="acessibilidade" class="menu-acessibilidade">
-                <button id="botao-acessibilidade" class="btn btn-primary rotacao-botao fw-bold">Acessibilidade</button>
+                <button id="botao-acessibilidade" class="btn btn-primary rotacao-botao fw-bold" aria-expanded="Botão de Acessibilidade">Acessibilidade</button>
                 <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista ">
                     <button id="aumentar-fonte" class="btn btn-primary fw-bold">A +</button>
 
@@ -43,24 +43,24 @@
 
     <main class="container my-5">
 
-        <section id="inicio" class="my-5">
+        <section id="inicio" class="my-5" aria-label="Sessão Início">
             <div class="inicio-fundo d-flex justify-content-between align-items-center">
                 <div class="esquerda-conteudo">
-                    <h1 class="display-4 text-black fst-italic fw">Boas-vindas a</h1>
+                    <h1 class="display-4 text-black fst-italic fw" aria-label="Boas-vindas a">Boas-vindas a</h1>
                     <img src="img/The_Last_Witch_Hunter_Logo.png" alt="Logotipo secundário The last Witch Huntar"
                         title="Logotipo secundário -CCO Domínio Público." class="mb-3" width="800" height="278"
                         loading="lazy">
-                    <a href="#tropicalia" class="btn btn-primary btn-lg botao-inicio fw-semibold">Quero
+                    <a href="#tropicalia" class="btn btn-primary btn-lg botao-inicio fw-semibold" aria-label="Quero conhecer!">Quero
                         conhecer!</a>
                 </div>
 
             </div>
         </section>
 
-        <section id="tropicalia" class="my-5 pt-6 secao-tropicalia">
+        <section id="tropicalia" class="my-5 pt-6 secao-tropicalia" aria-label="Sessão bruxaria" tabindex="0">
             <div class="container d-flex align-items-center ">
                 <div class="col-5">
-                    <h2 class="titulo">O que é bruxaria?</h2>
+                    <h2 class="titulo" aria-label="O que é bruxaria?">O que é bruxaria?</h2>
                     <p class="p-2">É uma prática de bruxaria que cultua divindades antigas, anteriores à história
                         registrada. Uma de suas crenças centrais é a ideia de que o ser humano não ocupa uma posição
                         superior aos outros seres vivos, e que tudo no universo segue um mesmo movimento ou fluxo, que é
@@ -69,8 +69,8 @@
             </div>
         </section>
 
-        <section id="galeria">
-            <h2 class="text-center pt-5">Galeria</h2>
+        <section id="galeria" tabindex="0">
+            <h2 class="text-center pt-5" aria-label="Galeria">Galeria</h2>
             <div class="container p-3 mt-3 fundo-galeria ">
 
                 <div class="row justify-content-md-center">
@@ -89,8 +89,8 @@
             </div>
         </section>
 
-        <section id="contato">
-            <div class="container p-5 d-flex justify-content-center">
+        <section id="contato" tabindex="0">
+            <div class="container p-5 d-flex justify-content-center" aria-label="Contato">
                 <div class="col-md-8 col-lg-10 rounded-5 formulario"> <!-- Caixa do formulário com 60% de largura -->
                     <h2 class="mb-3">Entre em contato</h2>
                     <form>
@@ -118,10 +118,11 @@
             </div>
         </section>
     </main>
-    <footer class="text-center finaltexto2">
+    <footer class="text-center finaltexto2" tabindex="0">
         <p class="finaltexto1">Acesse nossas redes:</p>
         <p class="mt-3">Desenvolvido por Yago Gabriel. Projeto fictício sem fins comerciais.</p>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.js"></script>
     <script src="script.js"></script>
 
 </body>
